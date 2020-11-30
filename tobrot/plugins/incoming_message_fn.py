@@ -16,7 +16,8 @@ import os
 import requests
 
 from tobrot import (
-    DOWNLOAD_LOCATION
+    DOWNLOAD_LOCATION,
+    CHANNEL
 )
 
 
