@@ -55,7 +55,7 @@ async def incoming_message_f(client, message):
         if chat.status == 'kicked':
             raise UserBannedInChannel
     except UserNotParticipant:
-        await update.reply(f'To use this Bot, You have to Join CHANNEL \n\n Join CHANNEL and Enjoy the Bot ❤️')
+        await update.reply(f'To use this Bot, You have to Join Config.CHANNEL \n\n Join Config.CHANNEL and Enjoy the Bot ❤️')
         return
     except UserBannedInChannel:
         await  update.reply_text("You are B A N N E D")
