@@ -22,6 +22,8 @@ class Config(object):
     DEF_THUMB_NAIL_VID_S = os.environ.get("DEF_THUMB_NAIL_VID_S", "https://placehold.it/90x90")
     # maximum message length in Telegram
     MAX_MESSAGE_LENGTH = 4096
+    #
+    CHANNEL = @StarkBots
     # set timeout for subprocess
     PROCESS_MAX_TIMEOUT = 3600
     #
