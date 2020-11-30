@@ -19,6 +19,7 @@ import traceback
 
 from tobrot import (
     DOWNLOAD_LOCATION,
+    CHANNEL,
     TG_BOT_TOKEN,
     APP_ID,
     API_HASH,
